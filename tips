@@ -1,4 +1,6 @@
-Why not use tabs (introduced in Vim 7)? You can switch between tabs with :tabn and :tabp, With  :tabe <filepath> you can add a new tab; and with a regular :q or :wq you close a tab. If you map :tabn and :tabp to your F7/F8 keys you can easily switch between files.
+Why not use tabs (introduced in Vim 7)? You can switch between tabs with :tabn and :tabp, With  :tabe <filepath> 
+you can add a new tab; and with a regular :q or :wq you close a tab. If you map :tabn and :tabp to your F7/F8 keys 
+you can easily switch between files.
 
 Position the cursor where you want to begin cutting.
 Press v to select characters (or uppercase V to select whole lines).
@@ -11,3 +13,13 @@ Copy and paste is performed with the same steps except for step 4 where you woul
 d = delete = cut
 
 y = yank = copy
+
+gg move cursor to the top
+G move cursor to the bottom
+
+j go down;k go up;l move right;h move left
+
+i insert before the cursor; I insert at begining of the line
+a append text following current cursor position;A append text to the end of current line
+
+https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
