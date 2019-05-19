@@ -23,3 +23,6 @@ i insert before the cursor; I insert at begining of the line
 a append text following current cursor position;A append text to the end of current line
 
 https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
+
+head command
+head -1 file show only first line
