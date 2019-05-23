@@ -26,3 +26,9 @@ https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
 
 head command
 head -1 file show only first line
+
+dd delete current line
+u undo
+Ctrl+r redo
+
+search Shift+8
