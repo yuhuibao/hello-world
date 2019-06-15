@@ -32,3 +32,4 @@ u undo
 Ctrl+r redo
 
 search Shift+8
+git remote show origin
