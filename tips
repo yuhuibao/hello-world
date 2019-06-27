@@ -31,5 +31,7 @@ dd delete current line
 u undo
 Ctrl+r redo
 
-search Shift+8
+search Shift+8 or n
 git remote show origin
+
+command line: search previous commands Ctrl+r; move cursor to the begining/end of the line HOME/END
