@@ -1,6 +1,9 @@
 general mode/edit mode/command mode
 change mode from general to edit: press any of i,I,a,A,o,O,r,R
 from general to command: press : or /
+
+switch tabs in vim
+open a new file within the current vim tab :tabnew filename
 Why not use tabs (introduced in Vim 7)? You can switch between tabs with :tabn and :tabp, With  :tabe <filepath> 
 you can add a new tab; and with a regular :q or :wq you close a tab. If you map :tabn and :tabp to your F7/F8 keys 
 you can easily switch between files.
