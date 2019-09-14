@@ -1,3 +1,6 @@
+general mode/edit mode/command mode
+change mode from general to edit: press any of i,I,a,A,o,O,r,R
+from general to command: press : or /
 Why not use tabs (introduced in Vim 7)? You can switch between tabs with :tabn and :tabp, With  :tabe <filepath> 
 you can add a new tab; and with a regular :q or :wq you close a tab. If you map :tabn and :tabp to your F7/F8 keys 
 you can easily switch between files.
@@ -32,6 +35,9 @@ u undo
 Ctrl+r redo
 
 search Shift+8 or n
+:set nu set line number
+
 git remote show origin
 
 command line: search previous commands Ctrl+r; move cursor to the begining/end of the line HOME/END
+chmod r:4,w:2,x:1, no permission:0 chmod 644 filename
