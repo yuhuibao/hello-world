@@ -45,7 +45,26 @@ Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
 :%s/foo/bar/gc
 ask for confirmation before change
 :%s/pattern//gn match pattern counts
+To find a word in Vi/Vim, simply type the / or ? key, followed by the word you're searching for.
+Once found, you can press the n key to go directly to the next occurrence of the word.
+
+Vi/Vim also allows you to launch a search on the word over which your cursor is positioned. 
+To do this, place the cursor over the term, and then press * or # to look it up.
 git remote show origin
 
 command line: search previous commands Ctrl+r; move cursor to the begining/end of the line HOME/END
-chmod r:4,w:2,x:1, no permission:0 chmod 644 filename
+
+u - user
+g - group
+o - other people
+
+--------------------
+
+chmod 754/644 filename
+
+7,5,4 represent the individual permissions for u g o
+
+4 - stands for "read"
+2 - stands for "write"
+1 - stands for "execute"
+0 - stands for "no permissions"
