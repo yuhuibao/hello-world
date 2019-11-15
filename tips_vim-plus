@@ -25,8 +25,18 @@ G move cursor to the bottom
 
 j go down;k go up;l move right;h move left
 
-i insert before the cursor; I insert at begining of the line
-a append text following current cursor position;A append text to the end of current line
+a Append text following current cursor position
+A Append text to the end of current line
+i Insert text before the current cursor position
+I Insert text at the beginning of the cursor line
+o Open up a new line following the current line and add text there
+O Open up a new line in front of the current line and add text there
+
+nG or :n Cursor goes to the specified (n) line
+(ex. 10G goes to line 10)
+
+$ Move cursor to the end of current line
+0 (zero) Move cursor to the beginning of current line
 
 https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
 
