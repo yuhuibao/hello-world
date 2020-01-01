@@ -1,0 +1,5 @@
+* matches zero or more characters
+[abc] matches any character inside the brackets(in this case a,b,or c)
+? matches a single character
+[0-9] matches any character between them
+a/**/z match nested directories(a/z,a/b/z,a/b/c/z)
