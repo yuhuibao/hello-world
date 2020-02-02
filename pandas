@@ -1,0 +1,16 @@
+df.isnull().sum() df.notnull()
+df.fillna(value=-9,inplace=True)
+df['A']=df['A'].astype(str).astype(float) from object type to float
+select several columns df[['col1','col2','col3']]
+select certain unit(specify row and col) 1) df[condition]['colx'] 2) df.loc[condition,'colx']
+ex: cbcl[cbcl['AGE_CBCL']>0]['AGE_CBCL'] final_f.loc[final_f['ppnblength']=='20 3/4','ppnblength']=20.75
+df.info() df.head() df.tail()
+df.describe
+df.shape
+df.loc[condition] ----> select rows
+df['col'].min() max() mean()
+df['cols'].unique()
+df.value_counts() df['colx'].value_counts()
+df.dtypes
+df.loc[df['colx'].isnull(),'colx']
+df.dropna(how = 'any'/'all', inplace=Ture, subset=['coli','colj']) drop rows
