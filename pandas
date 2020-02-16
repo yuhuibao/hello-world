@@ -10,7 +10,7 @@ df.shape
 df.loc[condition] ----> select rows
 df['col'].min() max() mean()
 df['cols'].unique()
-df.value_counts() df['colx'].value_counts()
+df.value_counts() df['colx'].value_counts(dropna=False)
 df.dtypes
 df.loc[df['colx'].isnull(),'colx']
 df.dropna(how = 'any'/'all', inplace=Ture, subset=['coli','colj']) drop rows
