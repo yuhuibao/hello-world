@@ -40,15 +40,16 @@ $ Move cursor to the end of current line
 
 https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
 
-head command
-head -1 file show only first line
 
+x delete one char
 dd delete current line
+s(subtitute) used to replace specified characters: 7s subtitute the next 7 chars; 3S 3 lines
+S replace specified lines
+r replace single char
 u undo
 Ctrl+r redo
 
-search Shift+8 or n
-:set nu set line number
+:set nu set line number (this feature is enabled in .vimrc)
 
 :%s/foo/bar/g
 Find each occurrence of 'foo' (in all lines), and replace it with 'bar'
@@ -60,9 +61,12 @@ Once found, you can press the n key to go directly to the next occurrence of the
 
 Vi/Vim also allows you to launch a search on the word over which your cursor is positioned. 
 To do this, place the cursor over the term, and then press * or # to look it up.
-git remote show origin
 
-command line: search previous commands Ctrl+r; move cursor to the begining/end of the line HOME/END
+
+command line: search previous commands Ctrl+r; move cursor to the begining/end of the line HOME/END or Ctrl+a/Ctrl+e
+
+head command
+head -1 file show only first line
 
 u - user
 g - group
