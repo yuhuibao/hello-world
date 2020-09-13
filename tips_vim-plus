@@ -44,17 +44,25 @@ nG or :n Cursor goes to the specified (n) line
 
 $ Move cursor to the end of current line
 0 (zero) Move cursor to the beginning of current line
+% jump to match of next paren or bracket
 
 https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
 
 
 x delete one char
-dd delete current line
+dd delete current line 3dd  delete 3 lines
 s(subtitute) used to replace specified characters: 7s subtitute the next 7 chars; 3S 3 lines
 S replace specified lines
 r replace single char
 u undo
 Ctrl+r redo
+
+aw: a word iw: inner word
+dw will delete from the cursor to the end of the word
+daw will delete the entire word along with a space
+diw will delete the entire word without touching whitespace around it. 
+
+motions: w/W b/B e/E(go to end of word/WORD right) w means any stream of non white space characters; W keyword inside vim
 
 :set nu set line number (this feature is enabled in .vimrc)
 
@@ -70,7 +78,8 @@ Vi/Vim also allows you to launch a search on the word over which your cursor is 
 To do this, place the cursor over the term, and then press * or # to look it up.
 
 
-command line: search previous commands Ctrl+r; move cursor to the begining/end of the line HOME/END or Ctrl+a/Ctrl+e
+command line: search previous commands Ctrl+r; 
+move cursor to the begining/end of the line HOME/END or Ctrl+a/Ctrl+e
 
 head command
 head -1 file show only first line
