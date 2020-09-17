@@ -1,4 +1,6 @@
 http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+The way to specify the name of the makefile is with the `-f' or `--file' option
+
 A Simple Makefile Tutorial
 Makefiles are a simple way to organize code compilation. This tutorial does not even scratch the surface of what is possible using make, but is intended as a starters guide so that you can quickly and easily create your own makefiles for small to medium-sized projects.
 
