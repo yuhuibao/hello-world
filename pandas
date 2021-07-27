@@ -14,3 +14,5 @@ df.value_counts() df['colx'].value_counts(dropna=False)
 df.dtypes
 df.loc[df['colx'].isnull(),'colx']
 df.dropna(how = 'any'/'all', inplace=Ture, subset=['coli','colj']) drop rows
+Call DataFrame.groupby(by) with by as a column name or list of column names to group the rows of DataFrame by the values of the column by.
+Then, call DataFrame.mean() with the result of the previous step as DataFrame to compute the means of each column in the groups.
