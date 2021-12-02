@@ -98,3 +98,5 @@ chmod 754/644 filename
 2 - stands for "write"
 1 - stands for "execute"
 0 - stands for "no permissions"
+
+history|grep XXX
